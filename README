@@ -1,0 +1,13 @@
+simpleScroll is a simple litte jQuery plugin for vertical scrolling to a specified element.
+
+Example use:
+
+$('#element-to-scroll-to').simpleScroll();
+
+This will scroll the browser to be at the top of the div with the id "element-to-scroll-to".
+
+You can also set the duration of the transition.
+
+$('#element-to-scroll-to').simpleScroll(2000);
+
+The duration is in milliseconds and by default it is set to 1000 (or one second).
